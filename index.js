@@ -31,6 +31,7 @@ function prependKitten(name){
 function removeFirstKitten() {
   var newkitten = [...kittens]
    kittens.shift()
+   return newkitten
 }
 
 function removeLastKitten(){
