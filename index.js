@@ -29,6 +29,7 @@ function prependKitten(name){
 }
 
 function removeFirstKitten() {
+  var newkitten =
   return kittens.shift()
 }
 
